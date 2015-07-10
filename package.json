@@ -1,0 +1,18 @@
+{
+  "name": "lambda-sector",
+  "description": "Lambda function for the Sector API",
+  "version": "0.0.1",
+  "private": "true",
+  "dependencies": {
+    "csv": "0.4.5"
+  },
+  "devDependencies": {
+    "grunt": "0.4.*",
+    "grunt-pack": "0.1.*",
+    "grunt-aws-lambda": "0.7.*",
+    "npm": "^2.2.0"
+  },
+  "bundledDependencies": [
+    "csv"
+  ]
+}
